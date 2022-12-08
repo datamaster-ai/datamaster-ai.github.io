@@ -1,76 +1,153 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>DataMaster.ai - Coming Soon</title>
-    <style>
-        body {
-            background-color: #f5f5f5;
-            font-family: sans-serif;
-            text-align: center;
-        }
-
-        h1 {
-            font-size: 36px;
-            color: #333;
-            margin: 20px 0;
-        }
-
-        p {
-            font-size: 18px;
-            color: #666;
-            margin: 10px 0;
-        }
-
-        .teaser {
-            display: inline-block;
-            width: 500px;
-            margin: 0 auto;
-            text-align: left;
-        }
-
-        .teaser img {
-            display: block;
-            margin: 0 auto;
-            width: 100%;
-        }
-
-        .signup-form {
-            display: inline-block;
-            width: 500px;
-            margin: 20px auto;
-            text-align: left;
-        }
-
-        .signup-form input[type="email"] {
-            display: block;
-            width: 100%;
-            padding: 10px;
-            border: 1px solid #ccc;
-            margin-bottom: 10px;
-        }
-
-        .signup-form input[type="submit"] {
-            display: block;
-            width: 100%;
-            padding: 10px;
-            border: none;
-            background-color: #333;
-            color: #fff;
-            font-size: 18px;
-        }
-    </style>
-</head>
-<body>
-    <h1>DataMaster.ai - Coming Soon</h1>
-    <p>Introducing the next-generation data management and BI solution for organizations of all sizes. Stay tuned for more details and sign up for updates below.</p>
-    <div class="teaser">
-        <img src="https://via.placeholder.com/500x300" alt="DataMaster.ai teaser">
-    </div>
-    <div class="signup-form">
-        <form action="#">
-            <input type="email" placeholder="Enter your email address">
-            <input type="submit" value="Sign Up for Updates">
-        </form>
-    </div>
-</body>
+    <head>
+        <title>DataMaster.ai - Coming Soon</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/e5e5c5a5b5.js" crossorigin="anonymous"></script>
+    </head>
+    <body id="particles-js">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-12">
+                    <svg width="100" height="100">
+                        <circle cx="50" cy="50" r="50" fill="#3D3AFF" />
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" x="25" y="25" viewBox="0 0 24 24">
+                            <path d="M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12C4,14.09 4.8,16 6.11,17.41L9.88,9.88L17.41,6.11C16,4.8 14.09,4 12,4M12,20A8,8 0 0,0 20,12C20,9.91 19.2,8 17.89,6.59L14.12,14.12L6.59,17.89C8,19.2 9.91,20 12,20Z"/>
+                        </svg>
+                    </svg>
+                    <h1 class="font-weight-bold">DataMaster.ai</h1>
+                    <p class="font-weight-bold">Coming Soon</p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-12">
+                    <p class="font-weight-light">Leverage GPT4 to analyse an organisation's database schema and allow non-technical end users to use natural language with a chatbot to retrieve, organise, and insert data and compile BI reports with interactive charts.</p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-12">
+                    <form>
+                        <input type="text" name="email" placeholder="Email" class="form-control form-control-lg">
+                        <input type="submit" value="Signup for Updates" class="btn btn-primary btn-lg mt-3">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <script>
+            particlesJS("particles-js", {
+                "particles": {
+                    "number": {
+                        "value": 80,
+                        "density": {
+                            "enable": true,
+                            "value_area": 800
+                        }
+                    },
+                    "color": {
+                        "value": "#3D3AFF"
+                    },
+                    "shape": {
+                        "type": "circle",
+                        "stroke": {
+                            "width": 0,
+                            "color": "#000000"
+                        },
+                        "polygon": {
+                            "nb_sides": 5
+                        },
+                        "image": {
+                            "src": "img/github.svg",
+                            "width": 100,
+                            "height": 100
+                        }
+                    },
+                    "opacity": {
+                        "value": 0.5,
+                        "random": false,
+                        "anim": {
+                            "enable": false,
+                            "speed": 1,
+                            "opacity_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "size": {
+                        "value": 3,
+                        "random": true,
+                        "anim": {
+                            "enable": false,
+                            "speed": 40,
+                            "size_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "line_linked": {
+                        "enable": true,
+                        "distance": 150,
+                        "color": "#3D3AFF",
+                        "opacity": 0.4,
+                        "width": 1
+                    },
+                    "move": {
+                        "enable": true,
+                        "speed": 6,
+                        "direction": "none",
+                        "random": false,
+                        "straight": false,
+                        "out_mode": "out",
+                        "bounce": false,
+                        "attract": {
+                            "enable": false,
+                            "rotateX": 600,
+                            "rotateY": 1200
+                        }
+                    }
+                },
+                "interactivity": {
+                    "detect_on": "canvas",
+                    "events": {
+                        "onhover": {
+                            "enable": true,
+                            "mode": "grab"
+                        },
+                        "onclick": {
+                            "enable": true,
+                            "mode": "push"
+                        },
+                        "resize": true
+                    },
+                    "modes": {
+                        "grab": {
+                            "distance": 140,
+                            "line_linked": {
+                                "opacity": 1
+                            }
+                        },
+                        "bubble": {
+                            "distance": 400,
+                            "size": 40,
+                            "duration": 2,
+                            "opacity": 8,
+                            "speed": 3
+                        },
+                        "repulse": {
+                            "distance": 200,
+                            "duration": 0.4
+                        },
+                        "push": {
+                            "particles_nb": 4
+                        },
+                        "remove": {
+                            "particles_nb": 2
+                        }
+                    }
+                },
+                "retina_detect": true
+            });
+        </script>
+    </body>
 </html>
